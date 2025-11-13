@@ -437,7 +437,7 @@ export function Hero() {
                 
                 {/* Cute bouncing photo */}
                 <motion.img
-                  src="/images/jen.jpg"
+                  src="/jmdamba/images/jen.jpg"
                   alt="Jane Doe - Creative Developer"
                   className="profile-photo relative z-10"
                   animate={{ 

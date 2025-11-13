@@ -315,7 +315,7 @@ export function About() {
               />
 
               <ImageWithFallback
-                src="/images/job.jpg"
+                src="/jmdamba/images/job.jpg"
                 alt="Developer workspace"
                 className="w-full h-[400px] object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
               />
