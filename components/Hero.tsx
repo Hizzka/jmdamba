@@ -391,22 +391,18 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.4 }}
                 className="flex gap-6 justify-center lg:justify-start"
               >
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                <span
+                  className="text-muted-foreground/50 cursor-not-allowed transition-colors"
+                  title="Link disabled"
                 >
                   <Github className="w-6 h-6" />
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                </span>
+                <span
+                  className="text-muted-foreground/50 cursor-not-allowed transition-colors"
+                  title="Link disabled"
                 >
                   <Linkedin className="w-6 h-6" />
-                </a>
+                </span>
                 <a
                   href="mailto:jane@example.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
