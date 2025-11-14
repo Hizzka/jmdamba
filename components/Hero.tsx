@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "./ui/button";
 
 export function Hero() {
@@ -612,15 +612,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-      >
-        <ArrowDown className="w-6 h-6 text-muted-foreground" />
-      </motion.div>
     </section>
   );
 }
