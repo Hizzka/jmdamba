@@ -12,7 +12,7 @@ export function Hero() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume/my_resume.pdf';
+    link.href = `${import.meta.env.BASE_URL}resume/my_resume.pdf`;
     link.download = 'Jobai_Damba_Resume.pdf';
     document.body.appendChild(link);
     link.click();
