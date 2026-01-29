@@ -12,7 +12,7 @@ export function Hero() {
 
   const downloadResume = () => {
     // Open PDF in new tab - GitHub Pages handles downloads better this way
-    window.open(`${import.meta.env.BASE_URL}resume/my_resume.pdf`, '_blank');
+    window.open(`${import.meta.env.BASE_URL}resume/JOBAI_DAMBA_RESUME.pdf`, '_blank');
   };
 
   return (
