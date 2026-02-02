@@ -6,7 +6,7 @@ export function Journey() {
     {
       title: "Freelance Full Stack Developer",
       company: "Various Clients",
-      period: "Sep 2025 – Present",
+      period: "Dec 2025 – Present",
       location: "Remote",
       type: "work",
       icon: "🧩",
@@ -20,7 +20,7 @@ export function Journey() {
     {
       title: "Full Stack Developer",
       company: "R2M IT Solutions Inc.",
-      period: "Mar 2022 – Present",
+      period: "Mar 2022 – January 2026",
       location: "Philippines",
       type: "work",
       icon: "💼",
